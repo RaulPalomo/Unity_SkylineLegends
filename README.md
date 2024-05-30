@@ -15,6 +15,7 @@ En aquest repositori es troba el projecte de Unity del videojoc Skyline Legends,
   - **Jugador**
   - **Mapa**
 - **Assets**
+- **Build del Projece**
 - **Projecte executable en Unity**
 
 ## Tecnologies utilitzades
