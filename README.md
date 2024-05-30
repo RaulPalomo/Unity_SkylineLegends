@@ -2,11 +2,9 @@
 # Unity_SkylineLegends
 En aquest repositori es troba el projecte de Unity del videojoc Skyline Legends, produit per David Sanz, Arnau Molano i Raúl Palomo.
 ### Funcionalitats del Videojoc
-- **Pantalla dividida**:  
-- **Carreres**: Els jugadors poden participar en missions principals i secundàries que influeixen en la narrativa del joc.
-- **Món Obert**: Una ciutat vasta i detallada amb molts llocs per explorar.
-- **Personalització de Personatges**: Els jugadors poden personalitzar els seus avatars amb diferents aspectes i habilitats.
-- **Sistema de Combat**: Combats dinàmics amb diferents armes i tècniques.
+- **Pantalla dividida**:  Competeix en local per veure qui és el millor pilot.
+- **Carreres**: Recorre diferents carreres amb les teves naus.
+- **Caixa misteriosa**: Desbloqueja les naus tirant una caixa misteriosa.
   
 ## Contingut
 - **Scripts**
