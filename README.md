@@ -84,7 +84,8 @@ Hem utilitzat diverses llibreries de Unity per a la creació del joc:
 Hem treballat els nostres codis de Unity amb aquest IDE, ja que és amb el que estem més familiaritzats, té una gran compatibilitat amb Unity i proporciona eines per facilitar les tasques.
 
 ## Instruccions d'Ús
-- Descarregar el zip i obrir la carpeta "SkylineLegendsGame" a Unity per després fer un build.
+- Per obrir a unity: descarregar el zip del del link i afegir el projecte SkylineGame a unity.
+- Per obrir el build: descarregar el build de github i execuutar la aplicació.
 
 ## Contacte
 - **David Sanz**: [david.sanz.7e7@itb.cat](mailto:david.sanz.7e7@itb.cat)
