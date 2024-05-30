@@ -21,59 +21,46 @@ En aquest repositori es troba el projecte de Unity del videojoc Skyline Legends,
 - **Coroutines**  
   Les coroutines són un mètode utilitzat a Unity per executar diferents línies de codi en paral·lel. Les hem utilitzat per recuperar dades de l'API, el moviment de les naus, controlar animacions i altres funcions.
   ~~~
-  public IEnumerator GetNaves(string nombre)
-   {
-     PlayerPrefs.SetString("idnaves", "");
-     desbloqueadas = new List<int>();
-     UnityWebRequest webRequest = UnityWebRequest.Get(urlInventario);
-
-     
-     yield return webRequest.SendWebRequest();
-
-     
-     if (webRequest.isNetworkError || webRequest.isHttpError)
-     {
-         Debug.LogError($"Error: {webRequest.error}");
-     }
-     else
-     {
-         
-         string responseText = webRequest.downloadHandler.text;
-         List<Inventario> inventarios = JsonConvert.DeserializeObject<List<Inventario>>(responseText);
-         foreach (Inventario inventario in inventarios)
-         {
-             if (inventario.nombre_jugador == nombre)
-             {
-                 if (inventario.bloqueado)
-                 {
-                     Debug.Log($"Nave:{inventario.nombre_nave} bloqueada");
-                 }
-                 else
-                 {
-                    
-                     StartCoroutine(GetNaveId(inventario.nombre_nave));
-                 }
-             }
-             
-         }
-         
-     }
-
-   }
-  ~~~
-  ~~~
-  private IEnumerator WaitAnimation()
-  {
-    
-    yield return new WaitForSeconds(12.10f);
-    if (parentObject.childCount>0)
-    {
-        foreach (Transform child in parentObject)
-        {
-            Destroy(child.gameObject);
+ 	public void Boost()
+	{
+		if (!isBoosting)
+		{
+			StartCoroutine(BoostSpeed());
+           
         }
-    }
-  }
+	}
+  ~~~
+  ~~~
+  public IEnumerator BoostSpeed()
+{
+	isBoosting = true;
+	float auxSpeed = maxSpeed;
+	maxSpeed = boostSpeed;
+	float duration = 1.0f;
+	float elapsedTime = 0.0f;
+
+	float initialSpeed = Speed;
+	float initialAcceleration = acceleration;
+
+	Speed = boostSpeed;
+	acceleration = 0;
+
+	Debug.Log($"Boost started: Speed={Speed}, Acceleration={acceleration}, ElapsedTime={elapsedTime}");
+
+    
+
+    while (elapsedTime < duration)
+	{
+		elapsedTime += Time.deltaTime;
+		yield return null;
+	}
+
+	Speed = initialSpeed;
+	acceleration = initialAcceleration;
+	maxSpeed = auxSpeed;
+	isBoosting = false;
+   
+}
   ~~~
 - **Llibreries Unity**  
 Hem utilitzat diverses llibreries de Unity per a la creació del joc:
