@@ -19,7 +19,7 @@ En aquest repositori es troba el projecte de Unity del videojoc Skyline Legends,
 
 ## Tecnologies utilitzades
 - **Coroutines**  
-  Les corutines són un mètode utilitzat a Unity per executar diferents línies de codi en paral·lel. Les hem utilitzat per recuperar dades de la API, el moviment de les naus i altres funcions
+  Les corutines són un mètode utilitzat a Unity per executar diferents línies de codi en paral·lel. Les hem utilitzat per recuperar dades de la API, el moviment de les naus i altres funcions.
   ~~~
   exemple de codi
   ~~~
@@ -28,6 +28,7 @@ En aquest repositori es troba el projecte de Unity del videojoc Skyline Legends,
   ~~~
 - **Llibreries Unity**
 - **Visual Studio Code Community**
+  Hem treballat els nostres codis de unity amb aquest IDE, ja que estem acostumats a treballar amb ell i té una gran compatibilitat amb unity i proporciona eines per facilitar les tasques.
 
 ## Instruccions d'Ús
 - Descarregar el zip i obrir la carpeta "SkylineLegendsGame" a Unity per després fer un build.
