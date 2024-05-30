@@ -32,7 +32,7 @@ En aquest repositori es troba el projecte de Unity del videojoc Skyline Legends,
   ~~~
   ~~~
   public IEnumerator BoostSpeed()
-{
+	{
 	isBoosting = true;
 	float auxSpeed = maxSpeed;
 	maxSpeed = boostSpeed;
@@ -49,7 +49,7 @@ En aquest repositori es troba el projecte de Unity del videojoc Skyline Legends,
 
     
 
-    while (elapsedTime < duration)
+   	 while (elapsedTime < duration)
 	{
 		elapsedTime += Time.deltaTime;
 		yield return null;
@@ -60,7 +60,7 @@ En aquest repositori es troba el projecte de Unity del videojoc Skyline Legends,
 	maxSpeed = auxSpeed;
 	isBoosting = false;
    
-}
+	}
   ~~~
 - **Llibreries Unity**  
 Hem utilitzat diverses llibreries de Unity per a la creació del joc:
