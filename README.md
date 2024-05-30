@@ -8,7 +8,9 @@ En aquest repositori es troba el projecte de Unity del videojoc Skyline Legends,
   
 ## Contingut
 - **Scripts**
+  ---
   Els scripts es troben separats per carpetes que determinen la seva categoria:
+  ---
   - **API**
   - **UI**
   - **Jugador**
@@ -18,17 +20,14 @@ En aquest repositori es troba el projecte de Unity del videojoc Skyline Legends,
 
 ## Tecnologies utilitzades
 - Coroutines
+  --
+  Les corutines son un métode utilitzat a unity per executar diferents líneas de codi en paral·lel,
+  --
 - Llibreries Unity
 - Visual Studio Code Community
 
 ## Instruccions d'Ús
 - Descarregar el zip i obrir la carpeta "SkylineLegendsGame" a Unity per després fer un build.
-
-## Detalls addicionals
-Skyline Legends és un videojoc d'acció i aventura ambientat en una ciutat futurista. Els jugadors poden explorar el món, completar missions i interactuar amb diversos elements del joc.
-
-### Desenvolupament i Contribucions
-Aquest projecte és el resultat d'un treball col·laboratiu entre tres desenvolupadors. Cada membre ha contribuït en diferents aspectes del desenvolupament, des de la programació i el disseny fins a la creació d'actius visuals i sonors.
 
 ## Contacte
 - **David Sanz**: [david.sanz.7e7@itb.cat](mailto:david.sanz.7e7@itb.cat)
