@@ -30,19 +30,7 @@ Skyline Legends és un videojoc d'acció i aventura ambientat en una ciutat futu
 ### Desenvolupament i Contribucions
 Aquest projecte és el resultat d'un treball col·laboratiu entre tres desenvolupadors. Cada membre ha contribuït en diferents aspectes del desenvolupament, des de la programació i el disseny fins a la creació d'actius visuals i sonors.
 
-### Requisits del Sistema
-Per executar el projecte de Skyline Legends, es recomana tenir:
-- **Sistema Operatiu**: Windows 10 o superior, macOS Mojave o superior.
-- **Processador**: Intel Core i5 o superior.
-- **Memòria RAM**: 8 GB o més.
-- **Tarjeta Gràfica**: Nvidia GeForce GTX 960 o equivalent.
-- **Unity**: Versió 2020.3 LTS o superior.
-
-## Suport i Contacte
-Contacte
+## Contacte
 - **David Sanz**: [david.sanz.7e7@itb.cat](mailto:david.sanz.7e7@itb.cat)
 - **Arnau Molano**: [arnau.molano.7e7@itb.cat](mailto:arnau.molano.7e7@itb.cat)
 - **Raúl Palomo**: [raul.palomo.7e7@itb.cat](mailto:raul.palomo.7e7@itb.cat)
-
-## Llicència
-Aquest projecte està llicenciat sota la [Llicència MIT](https://opensource.org/licenses/MIT). Veure el fitxer `LICENSE` per a més detalls.
