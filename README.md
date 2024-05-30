@@ -2,6 +2,7 @@
 En aquest repositori es troba el projecte de Unity del videojoc Skyline Legends, produit per David Sanz, Arnau Molano i Raúl Palomo.
 # Contingut
 - Scripts
+  --
   Els scripts es troben separats per carpetes que determinen la seva categoría
   - API
 - Assets
