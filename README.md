@@ -28,10 +28,10 @@ En aquest repositori es troba el projecte de Unity del videojoc Skyline Legends,
   ~~~
 - **Llibreries Unity**  
 Hem utilitzat diverses llibreries de Unity per a la creació del joc:
--- UnityEngine: La llibreria principal de Unity, utilitzada per accedir a les funcionalitats bàsiques del motor de joc.
-- UnityEngine.UI: Per a la creació i gestió d'interfícies d'usuari.
-- Cinemachine: Per a la gestió avançada de càmeres i efectes visuals.
-- **Visual Studio Code Community**  
+  - UnityEngine: La llibreria principal de Unity, utilitzada per accedir a les funcionalitats bàsiques del motor de joc.
+  - UnityEngine.UI: Per a la creació i gestió d'interfícies d'usuari.
+  - Cinemachine: Per a la gestió avançada de càmeres i efectes visuals.
+  - **Visual Studio Code Community**  
 Hem treballat els nostres codis de Unity amb aquest IDE, ja que és amb el que estem més familiaritzats, té una gran compatibilitat amb Unity i proporciona eines per facilitar les tasques.
 
 ## Instruccions d'Ús
