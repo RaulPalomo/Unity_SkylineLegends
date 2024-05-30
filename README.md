@@ -74,6 +74,7 @@ Hem treballat els nostres codis de Unity amb aquest IDE, ja que és amb el que e
 ## Instruccions d'Ús
 - Per obrir a unity: descarregar el zip del del link i afegir el projecte SkylineGame a unity.
 - Per obrir el build: descarregar el build de github i execuutar la aplicació.
+- Enllaç del Projecte:
 
 ## Contacte
 - **David Sanz**: [david.sanz.7e7@itb.cat](mailto:david.sanz.7e7@itb.cat)
