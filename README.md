@@ -33,6 +33,7 @@ En aquest repositori es troba el projecte de Unity del videojoc Skyline Legends,
   ~~~
   public IEnumerator BoostSpeed()
   {
+  
 	isBoosting = true;
 	float auxSpeed = maxSpeed;
 	maxSpeed = boostSpeed;
